@@ -1,0 +1,1 @@
+{ outputs = { ... }: { type = "firnWebpage"; }; }
