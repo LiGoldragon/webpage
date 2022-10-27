@@ -1,1 +1,1 @@
-{ outputs = { ... }: { type = "firnWebpage"; }; }
+{ outputs = { ... }: { type = "zolaWebsite"; }; }
