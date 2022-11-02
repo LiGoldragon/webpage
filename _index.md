@@ -3,6 +3,5 @@ title = "Li Goldragon"
 matrixID = "@li:matrix.org"
 +++
 
-# Intent
-To elevate
-
+# All is Intent
+A warrior has made a friend of intent.
