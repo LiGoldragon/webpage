@@ -1,7 +1,7 @@
-+++
-title = "Plane Earth"
-matrixRoom = "#planeEarth:matrix.org"
-+++
+---
+title: Plane Earth
+matrixRoom: "#planeEarth:matrix.org"
+---
 
 # Earth is a horizontal and motionless Plane.
 

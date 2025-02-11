@@ -1,10 +1,10 @@
-+++
-title = "Li Goldragon"
-matrixID = "@li:matrix.org"
-twitterID = "LiGoldragon"
-youtubeID = "@ligoldragon"
-patreonID = "LiGoldragon"
-+++
+---
+title: Li Goldragon
+matrixID: "@li:matrix.org"
+twitterID: LiGoldragon
+youtubeID: "@ligoldragon"
+patreonID: LiGoldragon
+---
 
 ## All is Intent
 
