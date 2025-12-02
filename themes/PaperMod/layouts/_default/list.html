@@ -1,0 +1,38 @@
+{{ define "main" }}
+  {{ if and .IsHome (and .Site.Params.profileMode .Site.Params.profileMode.enabled) }}
+    <section class="profile">
+      <h1>{{ .Site.Params.profileMode.title | default .Site.Title }}</h1>
+      {{ with .Site.Params.profileMode.subtitle }}<p class="subtitle">{{ . }}</p>{{ end }}
+      {{ with .Site.Params.profileMode.buttons }}
+        <div class="buttons">
+          {{ range . }}
+            <a class="button" href="{{ .url | relLangURL }}">{{ .name }}</a>
+          {{ end }}
+        </div>
+      {{ end }}
+    </section>
+  {{ else }}
+    <header class="page-header">
+      <h1>{{ .Title }}</h1>
+      {{ with .Params.description }}<p class="subtitle">{{ . }}</p>{{ end }}
+    </header>
+  {{ end }}
+
+  {{ if .Content }}
+    <section class="page-content">{{ .Content }}</section>
+  {{ end }}
+
+  {{ if .Pages }}
+    <section class="post-list">
+      <h2>Latest</h2>
+      <ul>
+        {{ range .Pages.ByPublishDate.Reverse }}
+          <li>
+            <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+            {{ if .Date }}<span class="muted">{{ .Date.Format "Jan 2, 2006" }}</span>{{ end }}
+          </li>
+        {{ end }}
+      </ul>
+    </section>
+  {{ end }}
+{{ end }}
