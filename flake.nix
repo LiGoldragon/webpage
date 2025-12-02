@@ -3,7 +3,11 @@
 
   inputs = {
     nixpkgs.url = "github:nixos/nixpkgs/nixos-unstable";
-    papermod.url = "github:adityatelange/hugo-PaperMod";
+
+    papermod = {
+      url = "github:adityatelange/hugo-PaperMod";
+      flake = false;
+    };
   };
 
   outputs =
