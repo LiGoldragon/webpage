@@ -17,6 +17,7 @@
       papermod,
     }:
     let
+      canonicalDomain = "https://ligoldragon.com";
       forAllSystems = nixpkgs.lib.genAttrs [
         "x86_64-linux"
         "aarch64-linux"
@@ -40,7 +41,7 @@
             buildPhase = ''
               mkdir -p themes
               ln -s ${theme} themes/PaperMod
-              hugo --minify --destination $out
+              hugo --minify --destination $out --baseURL ${canonicalDomain}
             '';
             installPhase = "";
           };
