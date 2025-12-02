@@ -1,0 +1,44 @@
+{
+  "nodes": {
+    "nixpkgs": {
+      "locked": {
+        "lastModified": 1752327859,
+        "narHash": "sha256-bteeX3HD34qn6oolwuPWIIXUoHM0dmjeOeHmXmHQCPU=",
+        "owner": "criome",
+        "repo": "nixpkgs",
+        "rev": "89d08cd9b446fb5312754ed4c1483d37c45b0c45",
+        "type": "github"
+      },
+      "original": {
+        "owner": "nixos",
+        "ref": "nixos-unstable",
+        "repo": "nixpkgs",
+        "type": "github"
+      }
+    },
+    "papermod": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1761493371,
+        "narHash": "sha256-ThUYt4NJlhkn9Y0vL6wnDIUCPn+S/OSGUa3kFwiS90A=",
+        "owner": "adityatelange",
+        "repo": "hugo-PaperMod",
+        "rev": "1cf53273c3ba58f0593ecb7c2befe11274f51a4e",
+        "type": "github"
+      },
+      "original": {
+        "owner": "adityatelange",
+        "repo": "hugo-PaperMod",
+        "type": "github"
+      }
+    },
+    "root": {
+      "inputs": {
+        "nixpkgs": "nixpkgs",
+        "papermod": "papermod"
+      }
+    }
+  },
+  "root": "root",
+  "version": 7
+}
