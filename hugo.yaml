@@ -22,14 +22,28 @@ params:
       - name: "Plane Earth"
         url: "/planeEarth/"
   socialIcons:
+    - name: X
+      url: "https://x.com/LiGoldragon"
+    - name: Youtube
+      url: "https://www.youtube.com/@LiGoldragon"
+    - name: Instagram
+      url: "https://instagram.com/LiGoldragon"
+    - name: Threads
+      url: "https://www.threads.net/@LiGoldragon"
+    - name: Facebook
+      url: "https://www.facebook.com/olivier.francoeur.323839/"
+    - name: TikTok
+      url: "https://tiktok.com/@ligoldragon"
+    - name: GitHub
+      url: "https://github.com/ligoldragon"
+    - name: Discord
+      url: "https://discord.com/users/1127385910615490570/"
     - name: Matrix
       url: "https://matrix.to/#/@li:matrix.org"
-    - name: Twitter
-      url: "https://twitter.com/LiGoldragon"
-    - name: Youtube
-      url: "https://www.youtube.com/@ligoldragon"
     - name: Patreon
-      url: "https://www.patreon.com/LiGoldragon"
+      url: "https://www.patreon.com/ligoldragon"
+    - name: Telegram
+      url: "http://t.me/LiGoldragon"
 
 menu:
   main:
