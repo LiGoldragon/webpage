@@ -18,9 +18,6 @@ params:
     enabled: true
     title: "Li Goldragon"
     subtitle: "All is Intent"
-    buttons:
-      - name: "Plane Earth"
-        url: "/planeEarth/"
   socialIcons:
     - name: X
       url: "https://x.com/LiGoldragon"
@@ -44,13 +41,6 @@ params:
       url: "https://www.patreon.com/ligoldragon"
     - name: Telegram
       url: "http://t.me/LiGoldragon"
-
-menu:
-  main:
-    - identifier: plane-earth
-      name: "Plane Earth"
-      url: "/planeEarth/"
-      weight: 10
 
 outputs:
   home:
